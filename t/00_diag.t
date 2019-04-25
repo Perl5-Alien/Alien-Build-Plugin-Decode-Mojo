@@ -9,8 +9,10 @@ eval q{ require Test::More };
 my %modules;
 my $post_diag;
 
+BEGIN { eval q{ use EV; } }
 $modules{$_} = $_ for qw(
   Alien::Build::Plugin
+  EV
   ExtUtils::MakeMaker
   Module::Load
   Mojo::DOM58

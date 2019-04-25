@@ -3,6 +3,8 @@ use Alien::Build::Plugin::Decode::Mojo;
 use Test::Alien::Build 1.68;
 use Path::Tiny qw( path );
 use Data::Dumper qw( Dumper );
+use Mojolicious 7.00;
+use Mojo::DOM58 1.00;
 
 subtest 'updates requires' => sub {
 
