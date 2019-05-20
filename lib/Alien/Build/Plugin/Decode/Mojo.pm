@@ -29,7 +29,11 @@ Force using C<Decode::Mojo> via the download negotiator:
 
 =head1 DESCRIPTION
 
-Note: in most cases you will want to use L<Alien::Build::Plugin::Download::Negotiate>
+B<NOTE>: this distribution has been ended. L<Alien::Build::Plugin::Decode::Mojo> can now
+be found in the C<Alien-Build> distribution.  Please report issues/make pull requests
+against it instead.
+
+B<Note>: in most cases you will want to use L<Alien::Build::Plugin::Download::Negotiate>
 instead.  It picks the appropriate decode plugin based on your platform and environment.
 In some cases you may need to use this plugin directly instead.
 

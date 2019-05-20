@@ -12,7 +12,7 @@ Force using `Decode::Mojo` via the download negotiator:
     use alienfile 1.68;
     
     configure {
-      requires 'Alien::Build::Plugin::Decod::Mojo';
+      requires 'Alien::Build::Plugin::Decode::Mojo';
     };
     
     plugin 'Download' => (
@@ -22,7 +22,11 @@ Force using `Decode::Mojo` via the download negotiator:
 
 # DESCRIPTION
 
-Note: in most cases you will want to use [Alien::Build::Plugin::Download::Negotiate](https://metacpan.org/pod/Alien::Build::Plugin::Download::Negotiate)
+**NOTE**: this distribution has been ended. [Alien::Build::Plugin::Decode::Mojo](https://metacpan.org/pod/Alien::Build::Plugin::Decode::Mojo) can now
+be found in the `Alien-Build` distribution.  Please report issues/make pull requests
+against it instead.
+
+**Note**: in most cases you will want to use [Alien::Build::Plugin::Download::Negotiate](https://metacpan.org/pod/Alien::Build::Plugin::Download::Negotiate)
 instead.  It picks the appropriate decode plugin based on your platform and environment.
 In some cases you may need to use this plugin directly instead.
 
